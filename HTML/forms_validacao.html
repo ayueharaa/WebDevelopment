@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Forms Validacao </title>
+    </head>
+    <body>
+        <h1> Pesquisar no Google </h1>
+        <form action = "https://www.google.com/search">
+            <label for="q">O que deseja pesquisar ?</label>
+            <input type = "text" id="q" name = "q" placeholder = "Nasa, SpaceX..." required>
+            <input type ="submit" value = "Pesquisar">
+        </form>
+    </body>
+</html>
+
+// required é pra tornar obrigatório preencher o campo
+// ao mudar o type, o programa verifica se o inserido está de acordo
+// ex : <input type = "email" id="q" name = "q" placeholder = "Nasa, SpaceX..."> // valida email
+// ex : <input type = "number" id="q" name = "q" placeholder = "Nasa, SpaceX..." min = "10" max = "12"> // valida numeros entre 10 e 12
+// ex : <input type = "text" id="q" name = "q" placeholder = "Nasa, SpaceX..." required> // torna obrigatório

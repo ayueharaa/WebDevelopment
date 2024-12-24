@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Cadastro da Liga dos Cosmonautas </title>
+    </head>
+    <body>
+        <h3> Cadastro da Liga dos Cosmonautas </h3>
+        <form>
+            Nome : <input type="text" name="name" required><br>
+            <br>
+            Email : <input type="email" name="email" required>
+            - Password : <input type="password" name="password" required><br>
+            <br>
+            Data de Nascimento : <input type="date" name="birthday" required>
+            - Foto : <input type="file" name="idphoto" required> <br>
+            <br>
+            Nacionalidade : <input list="Nacionalidade">
+                <datalist id="Nacionalidade"> 
+                    <option value="Americano"></option>
+                    <option value="Russo"></option>
+                    <option value="Brasileiro"></option>
+                </datalist>
+            - Gênero : <input type="radio" id="female" name="gender" value="F">
+                <label for="female">Feminino</label>
+                <input type="radio" id="male" name="gender" value="M">
+                <label for="male">Masculino</label>
+                <input type="radio" id="other" name="gender" value="O">
+                <label for="other">Outro</label> <br>
+            <br>
+            Suas principais qualidades:<br>
+            Inteligencia <input type="checkbox" name="Int"> |
+            Resiliência <input type="checkbox" name="Res"> |
+            Preparo Físico <input type="checkbox" name="PhyPrep"> |
+            Educação <input type="checkbox" name="Edu"> |<br>
+            <br>
+            <textarea name="reason" id="reason" cols="30" rows="10" placeholder="Por que você gostaria de se tornar um cosmonauta ?"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
