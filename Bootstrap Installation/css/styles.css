@@ -1,0 +1,150 @@
+/* HTML */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.color-section{
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+.white-section{
+  background-color: aliceblue;
+  color: black;
+}
+/* HEADER */
+.container-fluid {
+  padding: 3% 15%;
+}
+.big-heading {
+  font-weight: bolder;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+/* NAVBAR CSS */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+  font: weight 300px;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  color: aliceblue;
+}
+
+/* BUTTONS */
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-weight: bold;
+}
+
+/* TITLE image */
+.title-img {
+  width: 80%;
+  padding-left: 15%;
+  transform: rotate(25deg);
+}
+
+/* FEATURES*/
+#features {
+  z-index: 2;
+  position: relative;
+  top: -175px;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.feature-text {
+  font-weight: bold;
+}
+
+/* TESTIMONIAL */
+#testimonials {
+  position: relative;
+  top: -175px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* PRESS */
+#press {
+  padding-bottom: 3%;
+  position: relative;
+  top: -175px;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* PRICING */
+#pricing {
+  position: relative;
+  top: -175px;
+}
+.pricing-collumn {
+  padding: 3% 2%;
+}
+.price-title {
+  padding-top: 5%;
+}
+.price-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.signup-btn{
+  align-self:baseline;
+}
+
+/* DOWNLOAD */
+#cta {
+  position: relative;
+  top: -175px;
+  padding: 3% 3%;
+}
+.cta-title {
+  font-size: 4rem;
+  padding: 3% 7%;
+}
+
+/* FOOTER */
+#footer {
+  position: relative;
+  top: -175px;
+  padding: 5%;
+  font-size: 1.5rem;
+}
